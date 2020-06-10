@@ -55,3 +55,5 @@ stages:
       runOnce:
         deploy:
           steps:
+          - download: current
+            artifact: manifests
